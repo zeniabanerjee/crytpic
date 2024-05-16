@@ -40,10 +40,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geekHead-DD/cryptpic.git"
+    "url": "git+https://github.com/zeniabanerjee/picCrypt.git"
   },
   "bugs": {
-    "url": "https://github.com/geekHead-DD/cryptpic"
+    "url": "https://github.com/zeniabanerjee/picCrypt"
   },
-  "homepage": "https://github.com/geekHead-DD/cryptpic#readme"
+  "homepage": "https://github.com/zeniabanerjee/picCrypt#readme"
 }
