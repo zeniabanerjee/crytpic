@@ -172,7 +172,7 @@ const encrypt = async flags => {
 		await new Promise(resolve => {
 			for (let i = 0; i < length; i++) {
 				const k = key[i];
-				rgba[i] = rgba[i] & k;
+				rgba[i] = rgba[i] ^ k;
 			}
 
 			// save the image with _encrypted appended to the file name, mimeType and the new extension

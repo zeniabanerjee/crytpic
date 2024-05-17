@@ -108,7 +108,7 @@ const decrypt = async flags => {
 		// loop through the rgba array
 		for (let i = 0; i < length; i++) {
 			const k = keyArray[i];
-			rgba[i] = rgba[i] & k;
+			rgba[i] = rgba[i] ^ k;
 		}
 
 		// save the image with _decrypted appended to the file name, mimeType and the new extension
